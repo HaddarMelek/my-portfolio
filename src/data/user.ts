@@ -1,59 +1,54 @@
 export const USER = {
-  firstName: "Chánh Đại",
-  lastName: "Nguyễn",
-  displayName: "Chánh Đại",
-  username: "ncdai",
-  gender: "male",
-  bio: "Creating with code, driven by passion.",
+  firstName: "Melek",
+  lastName: "Haddar",
+  displayName: "Melek Haddar",
+  username: "melekhaddar",
+  gender: "female",
+  bio: "Software Engineering and Information Systems Engineer passionate about building smart and scalable digital solutions.",
   flipSentences: [
-    "Software Developer",
-    "UI/UX Designer",
-    "Open Source Contributor",
+    "Software Engineering and Information Systems Engineer",
+    "AI & ML Enthusiast",
+    "Problem Solver",
   ],
-  address: "Thanh My Tay Ward, Ho Chi Minh City, Viet Nam",
-  phoneNumber: "Kzg0Nzc3ODg4MTQ4", // E.164 format, base64 encoded (https://t.io.vn/base64-string-converter)
-  email: "ZGFpQGNoYW5oZGFpLmNvbQ==", // base64 encoded
-  website: "https://chanhdai.com",
+  address: "Tunis, Tunisia",
+  phoneNumber: "KzIxNjI2Mzc5NzY1", // base64
+  email: "bWVsZWsuaGFkYXJAZ21haWwuY29t", // base64
+  website: "https://haddarmelek.github.io/HADDARPortfolio/",
   otherWebsites: [
-    "https://dai.ng",
-    "https://dai.so",
-    "https://d.io.vn",
-    "https://d.id.vn",
-    "https://dai.io.vn",
-    "https://dai.id.vn",
-    "https://chanhdai.io.vn",
-    "https://chanhdai.id.vn",
-    "https://ncdai.vn",
-    "https://ncdai.net",
-    "https://dai.is-a.dev",
+    "https://github.com/HaddarMelek",
+    "https://www.linkedin.com/in/m%C3%A8l%C3%A8k-haddar-578146315/",
   ],
-  dateOfBirth: "2000-08-14", // YYYY-MM-DD
-  jobTitle: "Software Developer & UI/UX Designer",
+  dateOfBirth: "2002-05-12", // Exemple à ajuster
+  jobTitle: "Full-Stack Developer",
   jobs: [
     {
-      title: "Senior Frontend Developer & UI Design Lead",
-      company: "Simplamo",
-      website: "https://simplamo.com?ref=IN-926722",
+      title: "Software Engineering Intern",
+      company: "Saint Honoré Cosmetics",
+      website: "https://www.saint-honore-cosmetics.com/",
     },
     {
-      title: "Founder",
-      company: "Quaric",
-      website: "https://quaric.com",
+      title: "Freelance Developer",
+      company: "Self-Employed",
+      website: "https://haddarmelek.github.io/HADDARPortfolio/",
     },
   ],
   about: `
-Hello, World! I am Chánh Đại — a Software Developer & UI/UX Designer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
+Hello, I'm Melek Haddar, a Software Engineering and Information Systems student in my final year.
 
-With 5+ years of experience, I specialize in building high-quality web and mobile applications using Next.js, React, TypeScript, and modern front-end technologies. Beyond work, I love exploring new technologies and turning ideas into reality through personal projects.
+I design and develop smart, high-performance, and user-centered web solutions by combining strong software development skills with cutting-edge AI approaches.
 
-One of my key projects, [ZaDark](https://zadark.com), enhances the Zalo experience on PC and Web, surpassing 80,000 downloads on [SourceForge](https://sourceforge.net/projects/zadark) and 15,000 active users on the [Chrome Web Store](https://chromewebstore.google.com/detail/llfhpkkeljlgnjgkholeppfnepmjppob) since 2022.
+Driven by curiosity and a deep passion for emerging technologies, I focus on integrating artificial intelligence, machine learning, and intelligent systems to build real-world, impactful solutions.
 
-Let's connect and collaborate!
-  `,
-  avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.jpeg",
-  avatarWebp: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-  ogImage: "https://assets.chanhdai.com/images/screenshot-og-image-dark.png",
+I'm always looking for innovative projects, challenging opportunities, and meaningful collaborations.
+
+👉 Feel free to reach out if you'd like to connect or collaborate!`,
+
+  avatar: "/images/profile.jpeg",
+  avatarWebp: "/images/profile.webp",
+
+  ogImage:
+    "https://raw.githubusercontent.com/HaddarMelek/HADDARPortfolio/main/assets/images/hero-bg.png", // capture du portfolio ou image de couverture
   keywords:
-    "ncdai, nguyenchanhdai, nguyen chanh dai, chanhdai, chanh dai, iamncdai, quaric, zadark, nguyễn chánh đại, chánh đại",
-  dateCreated: "2023-10-20", // YYYY-MM-DD
+    "melek haddar, haddarmelek, développeuse full stack, développeuse IA, portfolio melek, tunis",
+  dateCreated: "2025-07-11", // ou date de création du portfolio
 };
