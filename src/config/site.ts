@@ -19,10 +19,7 @@ export const MAIN_NAV: NavItem[] = [
     title: "Daifolio",
     href: "/",
   },
-  {
-    title: "Blog",
-    href: "/blog",
-  },
+
   {
     title: "Components",
     href: "/components",

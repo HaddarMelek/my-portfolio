@@ -74,7 +74,7 @@ export function SiteFooter() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Icons.dmca className="h-5 w-auto" />
+              <Icons.award className="h-5 w-auto" />
               <span className="sr-only">DMCA.com Protection Status</span>
             </a>
           </div>

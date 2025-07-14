@@ -5,11 +5,11 @@ import * as motion from "motion/react-m";
 import { usePathname } from "next/navigation";
 import { useEffect, useRef, useState } from "react";
 
-import { ChanhDaiMark } from "./chanhdai-mark";
+import { LogoMark } from "./chanhdai-mark";
 
 export function SiteHeaderMark() {
   const pathname = usePathname();
-  return pathname === "/" ? <ChanhDaiMarkMotion /> : <ChanhDaiMark />;
+  return pathname === "/" ? <ChanhDaiMarkMotion /> : <LogoMark />;
 }
 
 function ChanhDaiMarkMotion() {
