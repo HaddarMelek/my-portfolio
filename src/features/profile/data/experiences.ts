@@ -4,7 +4,7 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "sainthonore",
     companyName: "Saint Honoré Cosmetics",
-    companyLogo: "https://sainthonorecosmetics.com/img/logo.png",
+    companyLogo: "/images/shc.png", // chemin relatif depuis la racine public
     positions: [
       {
         id: "internship-automation-2025",
@@ -41,13 +41,14 @@ export const EXPERIENCES: Experience[] = [
   {
     id: "phylia",
     companyName: "Phylia Technology",
-    companyLogo: "https://avatars.githubusercontent.com/u/118091726?v=4",
+    companyLogo: "/images/phylia.png", // chemin relatif
     positions: [
       {
         id: "internship-phylia-2024",
         title: "Full-stack Web Developer Intern",
         employmentPeriod: {
           start: "08.2024",
+          end: "09.2024",
         },
         employmentType: "Internship",
         icon: "code",

@@ -1,9 +1,12 @@
 import { RssIcon } from "lucide-react";
 
-import { SITE_INFO, SOURCE_CODE_GITHUB_URL } from "@/config/site";
 import { cn } from "@/lib/utils";
 
 import { Icons } from "./icons";
+
+const SITE_INFO = {
+  url: "https://your-domain.com", // Replace with your actual site URL
+};
 
 export function SiteFooter() {
   return (
@@ -11,28 +14,6 @@ export function SiteFooter() {
       <div className="screen-line-before mx-auto border-x border-edge pt-4 md:max-w-3xl">
         <p className="mb-1 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
           Inspired by tailwindcss.com + ui.shadcn.com
-        </p>
-
-        <p className="mb-4 px-4 text-center font-mono text-sm text-balance text-muted-foreground">
-          Built by{" "}
-          <a
-            className="link"
-            href="https://x.com/iamncdai"
-            target="_blank"
-            rel="noopener"
-          >
-            ncdai
-          </a>
-          . The source code is available on{" "}
-          <a
-            className="link"
-            href={SOURCE_CODE_GITHUB_URL}
-            target="_blank"
-            rel="noopener"
-          >
-            GitHub
-          </a>
-          .
         </p>
 
         <div

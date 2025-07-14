@@ -37,12 +37,7 @@ export const TECH_STACK: TechStack[] = [
     href: "https://nodejs.org/",
     categories: ["Runtime Environment"],
   },
-  {
-    key: "bun",
-    title: "Bun",
-    href: "https://bun.sh/",
-    categories: ["Runtime Environment"],
-  },
+
   {
     key: "react",
     title: "React",
@@ -69,37 +64,7 @@ export const TECH_STACK: TechStack[] = [
     categories: ["Library", "Component Library"],
     theme: true,
   },
-  {
-    key: "radixui",
-    title: "Radix UI",
-    href: "https://www.radix-ui.com/",
-    categories: ["Library", "Component Library"],
-    theme: true,
-  },
-  {
-    key: "motion",
-    title: "Motion",
-    href: "https://motion.dev/",
-    categories: ["Library", "Animation"],
-  },
-  {
-    key: "mobx-state-tree",
-    title: "MobX-State-Tree",
-    href: "https://mobx-state-tree.js.org/",
-    categories: ["State Management"],
-  },
-  {
-    key: "redux",
-    title: "Redux",
-    href: "https://redux.js.org/",
-    categories: ["State Management"],
-  },
-  {
-    key: "antd",
-    title: "Ant Design",
-    href: "https://ant.design/",
-    categories: ["Library", "UI Library"],
-  },
+
   {
     key: "react-router",
     title: "React Router",
@@ -113,12 +78,7 @@ export const TECH_STACK: TechStack[] = [
     href: "https://reactnavigation.org/",
     categories: ["Library", "Navigation"],
   },
-  {
-    key: "loopback",
-    title: "LoopBack",
-    href: "https://loopback.io/",
-    categories: ["Framework"],
-  },
+
   {
     key: "laravel",
     title: "Laravel",
@@ -149,24 +109,14 @@ export const TECH_STACK: TechStack[] = [
     href: "https://www.mongodb.com/",
     categories: ["Database"],
   },
-  {
-    key: "redis",
-    title: "Redis",
-    href: "https://redis.io/",
-    categories: ["Database"],
-  },
+
   {
     key: "figma",
     title: "Figma",
     href: "https://www.figma.com/",
     categories: ["Tools", "Design"],
   },
-  {
-    key: "ps",
-    title: "Adobe Photoshop",
-    href: "https://www.adobe.com/vn_en/products/photoshop.html",
-    categories: ["Tools", "Design"],
-  },
+
   {
     key: "chatgpt",
     title: "ChatGPT",

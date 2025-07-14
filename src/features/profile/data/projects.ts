@@ -4,6 +4,7 @@ export const PROJECTS: Project[] = [
   {
     id: "cybertrend",
     title: "CyberTrend",
+    logo: "/images/cyberAttacks.png",
     period: {
       start: "06.2025",
     },
@@ -25,6 +26,7 @@ export const PROJECTS: Project[] = [
   {
     id: "fast-food-classification",
     title: "Fast Food Image Classification",
+    logo: "/images/fast-food.png",
     period: {
       start: "05.2025",
     },
@@ -43,6 +45,7 @@ export const PROJECTS: Project[] = [
   {
     id: "pybank",
     title: "PyBank",
+    logo: "/images/bank.png",
     period: {
       start: "04.2025",
     },
@@ -54,6 +57,7 @@ export const PROJECTS: Project[] = [
   {
     id: "gustora",
     title: "Gustora",
+    logo: "/images/gustora.png",
     period: {
       start: "03.2025",
     },
@@ -72,6 +76,7 @@ export const PROJECTS: Project[] = [
   {
     id: "ecompulse",
     title: "EcomPulse",
+    logo: "/images/EcomPulse.png",
     period: {
       start: "02.2025",
     },
@@ -83,6 +88,7 @@ export const PROJECTS: Project[] = [
   {
     id: "mycvmaker",
     title: "My CV Maker",
+    logo: "/images/cvMaker.png",
     period: {
       start: "01.2025",
     },
@@ -94,6 +100,7 @@ export const PROJECTS: Project[] = [
   {
     id: "ehealth",
     title: "E-Health Platform",
+    logo: "/images/ehealth.png",
     period: {
       start: "12.2024",
     },
@@ -105,6 +112,7 @@ export const PROJECTS: Project[] = [
   {
     id: "restaurant-management-system",
     title: "Restaurant Management System",
+    logo: "/images/restaurent_management_sys.png",
     period: {
       start: "10.2024",
     },

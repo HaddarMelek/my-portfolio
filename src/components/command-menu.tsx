@@ -53,7 +53,7 @@ type CommandLinkItem = {
 
 const MENU_LINKS: CommandLinkItem[] = [
   {
-    title: "Daifolio",
+    title: "Daifoliooooooo",
     href: "/",
   },
   {
