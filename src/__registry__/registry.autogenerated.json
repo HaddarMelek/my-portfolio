@@ -1,13 +1,13 @@
 {
   "$schema": "https://ui.shadcn.com/schema/registry.json",
-  "name": "ncdai",
-  "homepage": "https://chanhdai.com",
+  "name": "melek",
+  "homepage": "https://github.com/HaddarMelek/my-portfolio",
   "items": [
     {
       "name": "utils",
       "type": "registry:lib",
       "title": "Utility Functions",
-      "author": "ncdai <dai@chanhdai.com>",
+      "author": "melek",
       "dependencies": [
         "clsx",
         "tailwind-merge"
