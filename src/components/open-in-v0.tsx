@@ -12,7 +12,7 @@ export function OpenInV0Button({ url }: { url: string }) {
         aria-label="Open in v0"
       >
         Open in
-        <Icons.v0 className="size-5" />
+        <Icons.js className="size-5" />
       </a>
     </Button>
   );
