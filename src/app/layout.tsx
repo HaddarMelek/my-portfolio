@@ -19,7 +19,6 @@ function getWebSiteJsonLd(): WithContext<WebSite> {
   };
 }
 
-// Thanks @shadcn-ui, @tailwindcss
 const darkModeScript = String.raw`
   try {
     if (localStorage.theme === 'dark' || ((!('theme' in localStorage) || localStorage.theme === 'system') && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
@@ -71,22 +70,22 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    creator: "@iamncdai", // Twitter username
+    creator: "@iamncdai",
     images: [SITE_INFO.ogImage],
   },
   icons: {
     icon: [
       {
-        url: "https://assets.chanhdai.com/images/favicon.ico",
+        url: "/images/logo.png",
         sizes: "any",
       },
       {
-        url: "https://assets.chanhdai.com/images/favicon.svg",
-        type: "image/svg+xml",
+        url: "/images/logo.png",
+        type: "image/png",
       },
     ],
     apple: {
-      url: "https://assets.chanhdai.com/images/apple-touch-icon.png",
+      url: "/images/logo.png",
       type: "image/png",
       sizes: "180x180",
     },
@@ -116,10 +115,6 @@ export default function RootLayout({
           type="text/javascript"
           dangerouslySetInnerHTML={{ __html: darkModeScript }}
         />
-        {/*
-          Thanks @tailwindcss. We inject the script via the `<Script/>` tag again,
-          since we found the regular `<script>` tag to not execute when rendering a not-found page.
-         */}
         <Script src={`data:text/javascript;base64,${btoa(darkModeScript)}`} />
         <script
           type="application/ld+json"
@@ -128,7 +123,6 @@ export default function RootLayout({
           }}
         />
       </head>
-
       <body>
         <Providers>{children}</Providers>
       </body>
