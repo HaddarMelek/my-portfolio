@@ -15,15 +15,11 @@ export const META_THEME_COLORS = {
 };
 
 export const MAIN_NAV: NavItem[] = [
-  {
-    title: "Daifolio",
-    href: "/",
-  },
-
-  {
-    title: "Components",
-    href: "/components",
-  },
+  { title: "About", href: "#about" },
+  { title: "Stack", href: "#stack" },
+  { title: "Experience", href: "#experience" },
+  { title: "Projects", href: "#projects" },
+  { title: "Certifications", href: "#certifications" },
 ];
 
 export const SOURCE_CODE_GITHUB_URL = "https://github.com/ncdai/chanhdai.com";

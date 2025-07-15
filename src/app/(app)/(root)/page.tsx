@@ -28,32 +28,31 @@ export default function Page() {
         <ProfileCover />
         <ProfileHeader />
         <Separator />
-
         <Overview />
         <Separator />
-
         <SocialLinks />
         <Separator />
-
-        <About />
+        <section id="about">
+          <About />
+        </section>
         <Separator />
-
-        <TeckStack />
+        <section id="stack">
+          <TeckStack />
+        </section>
         <Separator />
-
+        <section id="experience">
+          <Experiences />
+        </section>
         <Separator />
-
-        <Experiences />
+        <section id="projects">
+          <Projects />
+        </section>
         <Separator />
-
-        <Projects />
         <Separator />
-
+        <section id="certifications">
+          <Certifications />
+        </section>
         <Separator />
-
-        <Certifications />
-        <Separator />
-
         <Brand />
         <Separator />
       </div>
